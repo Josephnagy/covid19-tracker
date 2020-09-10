@@ -18,7 +18,7 @@
 - [ ] Global Map
   - [ ] Tracks & Zooms to Current Location
   - [ ] Pins for US counties + Provinces/Regions in Canada, China, and Australia + Rest of Countries Worldwide
-  - [ ] Search Bar: locate over 3000 pins and zoom in to specific pins
+  - [ ] Search Bar: locate over 5000 pins and zoom in to specific pins
 
   
 ### Project Architecture
