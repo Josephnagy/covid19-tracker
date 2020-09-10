@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Nash" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2020-04-17 at 11.41.48 PM" translatesAutoresizingMaskIntoConstraints="NO" id="ydb-FA-9J2">
+                                <rect key="frame" x="0.0" y="-90" width="414" height="179"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qLU-Xf-DTz">
+                                <rect key="frame" x="70" y="774" width="274" height="30"/>
+                                <color key="backgroundColor" red="0.99577528240000002" green="0.75046855209999996" blue="0.29003840679999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="JRa-Pb-OTU"/>
+                                    <constraint firstAttribute="width" constant="274" id="qxR-lJ-ztM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Go to the Map">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="zOr-uO-3Rv" kind="presentation" modalPresentationStyle="fullScreen" id="Xpd-FA-QL8"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="track" translatesAutoresizingMaskIntoConstraints="NO" id="RR9-Re-tGR">
+                                <rect key="frame" x="42" y="33" width="330" height="56"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="41r-A5-w5N"/>
+                                    <constraint firstAttribute="width" constant="330" id="tzt-Hh-pPh"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Track: COVID-19" textAlignment="natural" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VMW-hZ-fRn">
+                                <rect key="frame" x="57.5" y="180" width="299" height="27"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DwO-YM-fET">
+                                <rect key="frame" x="45" y="166" width="327" height="215"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="327" id="Uim-BP-3Xn"/>
+                                    <constraint firstAttribute="height" constant="215" id="mNU-vo-UO7"/>
+                                </constraints>
+                                <string key="text">We give you real-time data on the current spread of Corona Virus in your area and across the world. Through daily updates and a live map, you can stay up-to-date on the state of the current global pandemic.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon stats" translatesAutoresizingMaskIntoConstraints="NO" id="PnE-Lv-AJD">
+                                <rect key="frame" x="64" y="217" width="288" height="636"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cxb-oJ-7aA">
+                                <rect key="frame" x="70" y="734" width="274" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="274" id="bIC-N3-Rom"/>
+                                    <constraint firstAttribute="height" constant="32" id="j9v-NX-t7t"/>
+                                </constraints>
+                                <state key="normal" image="Daily Update">
+                                    <attributedString key="attributedTitle"/>
+                                </state>
+                                <connections>
+                                    <action selector="dailyUpdate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zPj-1Z-qXY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="RR9-Re-tGR" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="1cO-P6-Z1x"/>
+                            <constraint firstItem="RR9-Re-tGR" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-392" id="BRj-QL-50j"/>
+                            <constraint firstItem="qLU-Xf-DTz" firstAttribute="top" secondItem="Cxb-oJ-7aA" secondAttribute="bottom" constant="8" id="BTB-j1-S4L"/>
+                            <constraint firstItem="qLU-Xf-DTz" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Co4-Ea-7eA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="RR9-Re-tGR" secondAttribute="top" constant="11.000000000000028" id="ECe-t7-osP"/>
+                            <constraint firstItem="PnE-Lv-AJD" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="82" id="G9f-8Z-EMe"/>
+                            <constraint firstItem="VMW-hZ-fRn" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Hmb-Ci-Pjt"/>
+                            <constraint firstItem="DwO-YM-fET" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-179.5" id="RUK-l1-xJD"/>
+                            <constraint firstItem="PnE-Lv-AJD" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" constant="1" id="bjL-Mp-1O6"/>
+                            <constraint firstItem="VMW-hZ-fRn" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-259.5" id="dC5-I1-sVG"/>
+                            <constraint firstItem="Cxb-oJ-7aA" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="i5x-h3-rbb"/>
+                            <constraint firstItem="qLU-Xf-DTz" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="336" id="rzj-YY-CAi"/>
+                            <constraint firstItem="PnE-Lv-AJD" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="9:28" id="tFw-FM-2YN"/>
+                            <constraint firstItem="DwO-YM-fET" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" constant="1.5" id="zLg-WN-xsf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="111.83035714285714"/>
+        </scene>
+        <!--MapStoryboard-->
+        <scene sceneID="oSx-kp-Zpa">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MapStoryboard" id="zOr-uO-3Rv" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="BBn-TZ-fu3"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pdc-J4-VVT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749" y="112"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Daily Update" width="786" height="91"/>
+        <image name="Screen Shot 2020-04-17 at 11.41.48 PM" width="280" height="179"/>
+        <image name="icon stats" width="288" height="318"/>
+        <image name="track" width="432" height="98"/>
+    </resources>
+    <color key="tintColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</document>

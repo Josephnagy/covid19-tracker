@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A79E0B0E-F65A-4010-8450-42604A8EB960"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "978617E8-D424-4533-AD7A-EB13C03CADD5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Nash/LocationPrefTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "LocationPrefTableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "978617E8-D424-4533-AD7A-EB13C03CADD5 - 9bb8ebb8a1905c1b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Nash.LocationPrefTableViewController.tableData.getter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "Nash"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samsnedeker/nash/Nash/Nash/LocationPrefTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "978617E8-D424-4533-AD7A-EB13C03CADD5 - 69e692ff6cfcc81d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Nash.LocationPrefTableViewController.init(style: __C.UITableViewStyle) -&gt; Nash.LocationPrefTableViewController"
+                  moduleName = "Nash"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samsnedeker/nash/Nash/Nash/LocationPrefTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "37">
+               </Location>
+               <Location
+                  uuid = "978617E8-D424-4533-AD7A-EB13C03CADD5 - 4bcfef9daadec9a7"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Nash.LocationPrefTableViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Nash.LocationPrefTableViewController"
+                  moduleName = "Nash"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samsnedeker/nash/Nash/Nash/LocationPrefTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "167">
+               </Location>
+               <Location
+                  uuid = "978617E8-D424-4533-AD7A-EB13C03CADD5 - 7a2705794b429858"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Nash.LocationPrefTableViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Nash.LocationPrefTableViewController&gt;"
+                  moduleName = "Nash"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/samsnedeker/nash/Nash/Nash/LocationPrefTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "98">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

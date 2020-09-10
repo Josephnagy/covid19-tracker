@@ -1,0 +1,8 @@
+runtime: python37
+entrypoint: gunicorn -b :$PORT main:app
+
+runtime_config:
+    python_version: 3
+
+env_variables:
+    CLOUD_STORAGE_BUCKET: nash_server
